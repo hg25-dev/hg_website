@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F1F5F9;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #0F172A, #020617);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #14B8A6;
+    color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+.about img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* SKILLS */
+.skills {
+    padding: 80px 10%;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #14B8A6;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 80px 10%;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.portfolio-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
